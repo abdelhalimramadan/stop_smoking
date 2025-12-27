@@ -18,12 +18,29 @@ The app calculates key metrics like time since last cigarette, money saved, ciga
 
 ## 🧰 Screenshots
 
-![Home Screen](lib/homepage.png)
-![Statistics Screen](lib/chatbot.png)
-![Statistics Screen](lib/3.png)
-![Statistics Screen](lib/4.png)
+<img src="lib/homepage.png" alt="Home" width="200" />
+<img src="lib/chatbot.png" alt="chatbot" width="200" />
+<img src="lib/3.png" alt="Progress" width="200" />
+<img src="lib/4.png" alt="Settings" width="200" />
 
+---
 
+## 🚀 Getting Started
 
-Example:
+These instructions will help you set up this project locally.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Flutter SDK  
+- Android Studio or VS Code  
+- A connected device or emulator
+
+### 🧩 Installation and Setup
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/abdelhalimramadan/stop_smoking.git
 
