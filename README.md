@@ -18,7 +18,7 @@ The app calculates key metrics like time since last cigarette, money saved, ciga
 
 ## 🧰 Screenshots
 
-![Home Screen](screenshots/home.png)
+![Home Screen](homepage.png)
 ![Statistics Screen](screenshots/stats.png)
 
 
