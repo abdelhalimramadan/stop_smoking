@@ -79,12 +79,56 @@ stop_smoking/
 ```
 ## 🛠 Dependencies
 dependencies:
+```
   flutter:
     sdk: flutter
-  provider: ^6.0.0
-  shared_preferences: ^2.0.15
-  intl: ^0.18.0
+  flutter_localizations:
+    sdk: flutter
 
+  # Core dependencies
+  cupertino_icons: ^1.0.6
+
+  # HTTP and networking
+  http: ^1.1.0
+
+  # Local storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # Notifications
+  flutter_local_notifications: ^16.3.2
+  timezone: ^0.9.2
+
+  # Date and time
+  intl: ^0.20.2
+
+  # State management
+  provider: ^6.1.1
+
+  # UI components
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+
+  # Charts and graphs
+  fl_chart: ^0.65.0
+
+  # Utilities
+  uuid: ^4.2.1
+  url_launcher: ^6.2.2
+  device_info_plus: ^9.1.1
+  package_info_plus: ^4.2.0
+
+  # Permissions
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+```
 ## 🙌 Acknowledgements
 
 Thanks to everyone who contributes and uses this app. Built with ❤️ and Flutter.
