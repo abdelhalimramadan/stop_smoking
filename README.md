@@ -18,10 +18,12 @@ The app calculates key metrics like time since last cigarette, money saved, ciga
 
 ## 🧰 Screenshots
 
-<img src="lib/homepage.png" alt="Home" width="200" />
-<img src="lib/chatbot.png" alt="chatbot" width="200" />
-<img src="lib/3.png" alt="Progress" width="200" />
-<img src="lib/4.png" alt="Settings" width="200" />
+<p float="left">
+  <img src="lib/homepage.png" alt="Home" width="200" />
+  <img src="lib/chatbot.png" alt="Chatbot" width="200" />
+  <img src="lib/3.png" alt="Progress" width="200" />
+  <img src="lib/4.png" alt="Settings" width="200" />
+</p>
 
 ---
 
@@ -43,4 +45,46 @@ Make sure you have the following installed:
 
 ```bash
 git clone https://github.com/abdelhalimramadan/stop_smoking.git
+```
+2. **Navigate into the project directory**
+```
+cd stop_smoking
+```
 
+3. **Install dependencies**
+   ```
+   flutter pub get
+   ```
+
+4. **Run the app**
+   ```
+      flutter run
+   ```
+
+## 📦 Project Structure
+```
+stop_smoking/
+├─ android/
+├─ ios/
+├─ lib/
+│  ├─ main.dart
+│  ├─ screens/
+│  ├─ widgets/
+│  └─ utils/
+├─ web/
+├─ test/
+├─ pubspec.yaml
+├─ README.md
+└─ .gitignore
+```
+## 🛠 Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  shared_preferences: ^2.0.15
+  intl: ^0.18.0
+
+## 🙌 Acknowledgements
+
+Thanks to everyone who contributes and uses this app. Built with ❤️ and Flutter.
